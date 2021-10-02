@@ -10,38 +10,63 @@
     <h1>Company Inc.</h1>
     <h2>For all your incorporated company needs</h2>
 
-    <!-- First, create a form tag where our inputs will be nested -->
+    <form>
 
 
-      <!-- Add a label for 'fullname'-->
-
-      <!-- Add a text input with the id and name attributes set to 'fullname' -->
-      <!-- Include the place holder text "Enter Name" and make this input required -->
-
-
-      <!-- Add a label for 'email'-->
-
-      <!-- Add a email input with the id and name attributes set to 'email' -->
-      <!-- Include the place holder text "Enter Email" and make this input required -->
+        <div class="Name">
+            <label for="Full Name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="Full Name" required>
+            
+        </div>
 
 
-      <!-- Add a label for 'phone'-->
+        <div class="Email">
+            <label for="Email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+            
+        </div>
 
-      <!-- Add a telephone input with the id and name attributes set to 'phone' -->
-      <!-- Include the place holder text "Enter Telephone (optional)" -->
-
-
-      <!-- Add a label for 'message'-->
-
-      <!-- Add a textarea tag with the id and name attributes set to 'message' -->
-      <!-- Include the place holder text "Enter Message" -->
+              
 
 
-      <!-- Add a checkbox input with the id set to 'checkbox' -->
+        <div class="Telephone ID">
+            <label for="Telephone ID">Telephone ID</label>
+            <input type="tel" name="Telephone ID" id="Telephone" placeholder="Enter Telephone (optional)">
+            
+        </div>
 
 
 
-      <!-- Add an input with the type set to 'submit' -->
+        <div class="Telephone ID">
+            <label for="Message">Message</label>
+            <input type="text" name="Message" id="Message" placeholder="Enter Message"><br>
+            
+        </div>
+
+
+        <div class="Feedback">
+            <input type="checkbox" id="Pet1" name="Pet1" value="Cat">
+            <label for="Pet1"> I have a Cat</label><br>
+            
+            <input type="checkbox" id="Pet2" name="Pet2" value="Dog">
+            <label for="Pet2"> I have a Dog</label><br>
+
+            <input type="checkbox" id="None" name="None" value="None">
+            <label for="None"> I have none</label><br>
+            
+            
+            
+        </div>
+
+
+
+      <div class="Submit">
+      <input type="submit" required>
+      </div>
+
+
+
+    </form>  
 
     
   </body>
